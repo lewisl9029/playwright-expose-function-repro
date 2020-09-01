@@ -1,0 +1,16 @@
+{
+  "name": "playwright-expose-function-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "repository": "https://github.com/lewisl9029/playwright-expose-function-repro",
+  "author": "Lewis Liu <lewisl9029@users.noreply.github.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {"start": "node index.js"},
+  "dependencies": {
+    "playwright": "^1.3.0"
+  }
+}
